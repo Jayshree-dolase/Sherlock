@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        a {
+            display: block;
+            color: purple;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a th:href="@{/path/to/AuditStamp.java}" th:text="'AuditStamp.java'">AuditStamp.java</a>
+    <a th:href="@{/path/to/KycDetails.java}" th:text="'KycDetails.java'">KycDetails.java</a>
+    <a th:href="@{/path/to/SherlockRequest.java}" th:text="'SherlockRequest.java'">SherlockRequest.java</a>
+    <a th:href="@{/path/to/SherlockResponse.java}" th:text="'SherlockResponse.java'">SherlockResponse.java</a>
+</body>
+</html>
